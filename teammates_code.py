@@ -28,7 +28,7 @@ if user_input == "Pint":
 if user_input == "Quart":
   quart = int(input("Enter quart amount: "))
   gallon_convertFrom_quart = (quart / 4)
-  print (str(input(gallon_convertFrom_quart)+ " Gallons")
+  print (str(input(gallon_convertFrom_quart)+ " Gallons"))
 
 if user_input == "Milligram":
   milligram = int(input("Enter milligram amount: ")) #user input for var memory as int
