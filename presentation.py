@@ -31,7 +31,7 @@ ingredients = {"Yeast": {"calories": 13, "total fat(g)": 0.3, "Cholesterol(mg)":
 
 user_choice = input("Would you like to make a list?: ")
 
-if user_choice == "yes" or "Yes" or "y" or "Y":
+if "Y" in user_choice.upper():
     user_num = int(input("How many items will be in your list?: "))
 for i in range(user_num):
     user_ingredient = input("What is the ingredient?: ")
